@@ -11,7 +11,6 @@
   Show Lab @ National University of Singapore
 </p>
 
-https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 <p align="center">
   <a href="">📄 Paper</a> &nbsp; | &nbsp;
@@ -20,6 +19,8 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
   <a href="">🌐 Project Website</a> &nbsp; | &nbsp;
   <a href="">💬Twitter</a>
 </p>
+
+https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 ---
 
