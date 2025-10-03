@@ -11,7 +11,11 @@
   Show Lab @ National University of Singapore
 </p>
 
-https://github.com/Zeyu-Zhu/Paper2Video/releases/download/video/zeyu_papertalker.mp4
+<video src="https://github.com/Zeyu-Zhu/Paper2Video/releases/download/video/zeyu_papertalker.mp4" 
+       controls 
+       width="600">
+  Your browser does not support the video tag.
+</video>
 
 <p align="center">
   <a href="">📄 Paper</a> &nbsp; | &nbsp;
