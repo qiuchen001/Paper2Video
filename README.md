@@ -1,8 +1,8 @@
 
 
 <p align="left">
-  <img src="./assets/logo.png" alt="Logo" width="25"/>
-  <span style="font-size: 1.6em; font-weight: bold;">Paper2Video</span>
+  <img src="./assets/logo.png" alt="Logo" width="40"/>
+  <span style="font-size: 2.5em; font-weight: bold;">Paper2Video</span>
 </p>
 
 <p align="center">
