@@ -60,6 +60,7 @@ This work solves two core problems for academic presentations:
 ### 1. Requirements
 Prepare the environment:
 ```bash
+cd src
 conda create -n p2v python=3.10
 conda activate p2v
 pip install -r requirements.txt
@@ -141,7 +142,7 @@ To capture these goals, we introduce evaluation metrics specifically designed fo
 ### Run Eval
 Prepare the environment:
 ```bash
-cd evaluation
+cd src/evaluation
 conda create -n p2v_e python=3.10
 conda activate p2v_e
 pip install -r requirements.txt
