@@ -1,4 +1,5 @@
-# ![Logo](assets/logo.png)Paper2Video
+# <img src="assets/logo.png" alt="Logo" width="40"/> Paper2Video
+
 
 <p align="center">
   <b>Automatic Video Generation from Scientific Papers</b>
