@@ -158,16 +158,14 @@ python MetaSim_content.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/
 ```bash
 python PresentArena.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
 ```
-For **PresentQuiz** 
-First generate questions from paper and eval using Gemini:
+For **PresentQuiz**, first generate questions from paper and eval using Gemini:
 ```bash
 cd PresentQuiz
 python create_paper_questions.py ----paper_folder /path/to/data
 python PresentQuiz.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
 ```
 
-For **IP Memory**
-First generate question pairs from generated videos and eval using Gemini:
+For **IP Memory**, first generate question pairs from generated videos and eval using Gemini:
 ```bash
 cd IPMemory
 python construct.py
