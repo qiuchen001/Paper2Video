@@ -57,7 +57,7 @@ This work solves two core problems for academic presentations:
 
 ## 🚀 Try PaperTalker for your Paper!
 <p align="center">
-  <img src="assets/method.png" alt="Approach" width="80%">
+  <img src="assets/method.png" alt="Approach" width="100%">
 </p>
 
 ### 1. Requirements
