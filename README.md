@@ -1,9 +1,4 @@
-
-
-<p align="left">
-  <img src="./assets/logo.png" alt="Logo" width="40"/>
-  <span style="font-size: 6em; font-weight: bold;">Paper2Video</span>
-</p>
+# Paper2Video
 
 <p align="center">
   <b>Automatic Video Generation from Scientific Papers</b>
