@@ -1,4 +1,4 @@
-# Paper2Video
+# ![Logo](assets/logo.png)Paper2Video
 
 <p align="center">
   <b>Automatic Video Generation from Scientific Papers</b>
@@ -20,6 +20,7 @@
   <a href="">💬Twitter</a>
 </p>
 
+Below is example of Paper2Video for Paper2Video:
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 ---
