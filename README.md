@@ -3,9 +3,6 @@
 <p align="center">
   <b>Automatic Video Generation from Scientific Papers</b>
 </p>
-<video src="assets/paper2video.mp4" width="600" controls>
-  Your browser does not support the video tag.
-</video>
 
 <p align="center">
   <a href="https://zeyu-zhu.github.io/webpage/">Zeyu Zhu</a>,
@@ -14,6 +11,9 @@
   Show Lab @ National University of Singapore
 </p>
 
+<video src="assets/paper2video.mp4" width="600" controls>
+  Your browser does not support the video tag.
+</video>
 
 <p align="center">
   <a href="">📄 Paper</a> &nbsp; | &nbsp;
