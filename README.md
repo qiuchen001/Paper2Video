@@ -22,6 +22,7 @@
 </p>
 
 Below is example of Paper2Video for Paper2Video:
+
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 ---
