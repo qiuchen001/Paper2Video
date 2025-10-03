@@ -2,13 +2,13 @@
 
 <p align="left">
   <img src="./assets/logo.png" alt="Logo" width="40"/>
-  <span style="font-size: 2.5em; font-weight: bold;">Paper2Video</span>
+  <span style="font-size: 6em; font-weight: bold;">Paper2Video</span>
 </p>
 
 <p align="center">
   <b>Automatic Video Generation from Scientific Papers</b>
 </p>
-<video src="assets/" width="600" controls>
+<video src="assets/paper2video.mp4" width="600" controls>
   Your browser does not support the video tag.
 </video>
 
