@@ -185,7 +185,6 @@ See the codes for more details!
 * We thank the authors of [Hallo2](https://github.com/fudan-generative-vision/hallo2.git) and [Paper2Poster](https://github.com/Paper2Poster/Paper2Poster.git) for their open-sourced codes.
 * We thank [Wei Jia](https://github.com/weeadd) for his effort in collecting the data and implementing the baselines. We also thank all the participants involved in the human studies.
 * We thank all the **Show Lab @ NUS** members for support!
-* We thank all the **Show Lab @ NUS** members for support!
 
 
 
