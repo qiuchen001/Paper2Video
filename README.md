@@ -1,8 +1,8 @@
-# <img src="assets/logo.png" alt="Logo" width="40"/> Paper2Video
+# Paper2Video
 
 
 <p align="center">
-  <b>Automatic Video Generation from Scientific Papers</b>
+  <b>Paper2Video: Automatic Video Generation from Scientific Papers</b>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
   <a href="">💬Twitter</a>
 </p>
 
-Below is example of Paper2Video for Paper2Video😼:
+Check out How Paper2Video for Paper2Video 😼:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
