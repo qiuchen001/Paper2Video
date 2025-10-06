@@ -17,7 +17,7 @@
   <a href="">📄 Paper</a> &nbsp; | &nbsp;
 <!--   <a href="">🤗 Daily Paper</a> &nbsp; | &nbsp; -->
   <a href="https://huggingface.co/datasets/ZaynZhu/Paper2Video">🤗 Dataset</a> &nbsp; | &nbsp;
-  <a href="">🌐 Project Website</a> &nbsp; | &nbsp;
+  <a href="https://showlab.github.io/Paper2Video/">🌐 Project Website</a> &nbsp; | &nbsp;
   <a href="">💬Twitter</a>
 </p>
 
