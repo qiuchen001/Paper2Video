@@ -75,12 +75,12 @@ conda create -n p2v python=3.10
 conda activate p2v
 pip install -r requirements.txt
 ````
-Download the dependent code and follow the instructions in **Hallo2** to download the model weight.
+Download the dependent code and follow the instructions in **[Hallo2](https://github.com/fudan-generative-vision/hallo2)** to download the model weight.
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
 git clone https://github.com/Paper2Poster/Paper2Poster.git
 ```
-You need to **prepare the environment separately for talking-head generation** to avoide package conflicts, please refer to  <a href="git clone https://github.com/fudan-generative-vision/hallo2.git">Hallo2</a>. After installing, use `which python` to get the python environment path.
+You need to **prepare the environment separately for talking-head generation** to potential avoide package conflicts, please refer to  <a href="git clone https://github.com/fudan-generative-vision/hallo2.git">Hallo2</a>. After installing, use `which python` to get the python environment path.
 ```bash
 cd hallo2
 conda create -n hallo python=3.10
@@ -133,7 +133,7 @@ python pipeline.py \
 | `--talking_head_env` | `str` | `/path/to/hallo2_env` | python environment path for talking-head generation |
 ---
 
-## 📊 Evaluation -- Paper2Video
+## 📊 Evaluation: Paper2Video
 <p align="center">
   <img src="assets/metrics.png" alt="Metrics" width="100%">
 </p>
@@ -150,14 +150,14 @@ Unlike natural video generation, academic presentation videos serve a highly spe
 To capture these goals, we introduce evaluation metrics specifically designed for academic presentation videos: Meta Similarity, PresentArena, PresentQuiz, IP Memory.
 
 ### Run Eval
-Prepare the environment:
+- Prepare the environment:
 ```bash
 cd src/evaluation
 conda create -n p2v_e python=3.10
 conda activate p2v_e
 pip install -r requirements.txt
 ```
-For MetaSimilarity and PresentArena:
+- For MetaSimilarity and PresentArena:
 ```bash
 python MetaSim_audio.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
 python MetaSim_content.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
@@ -165,14 +165,14 @@ python MetaSim_content.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/
 ```bash
 python PresentArena.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
 ```
-For **PresentQuiz**, first generate questions from paper and eval using Gemini:
+- For **PresentQuiz**, first generate questions from paper and eval using Gemini:
 ```bash
 cd PresentQuiz
 python create_paper_questions.py ----paper_folder /path/to/data
 python PresentQuiz.py --r /path/to/result_dir --g /path/to/gt_dir --s /path/to/save_dir
 ```
 
-For **IP Memory**, first generate question pairs from generated videos and eval using Gemini:
+- For **IP Memory**, first generate question pairs from generated videos and eval using Gemini:
 ```bash
 cd IPMemory
 python construct.py
@@ -180,7 +180,7 @@ python ip_qa.py
 ```
 See the codes for more details!
 
-👉 Paper2Video Benchmark available at:
+👉 Paper2Video Benchmark is available at:
 [HuggingFace](https://huggingface.co/datasets/ZaynZhu/Paper2Video)
 
 ---
