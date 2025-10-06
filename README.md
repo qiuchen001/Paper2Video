@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
     <!-- Sample 1 -->
     <tr>
       <td style="padding:8px; border:1px solid #ddd;">
-        <img src="assets/hinton/paper.png" alt="Paper" style="width:160px;">
+        <img src="assets/hinton/paper.png" alt="Paper" style="width:120px;">
       </td>
       <td style="padding:8px; border:1px solid #ddd;">
         <img src="assets/hinton/hinton_head.jpeg" alt="Author Portrait" style="width:120px; border-radius:8px;">
