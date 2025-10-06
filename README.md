@@ -25,6 +25,103 @@ Check out How Paper2Video for Paper2Video 😼:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
+
+<table style="width:90%; border-collapse:collapse; text-align:center; margin:24px auto; font-size:15px; line-height:1.45;">
+  <thead>
+    <tr>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Benchmarks</th>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Inputs</th>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Outputs</th>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Subtitle</th>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Slides</th>
+      <th rowspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Cursor</th>
+      <th colspan="2" style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Speaker</th>
+    </tr>
+    <tr>
+      <th style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Face</th>
+      <th style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:center;">Voice</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="8" style="padding:10px 8px; border-bottom:1px solid #e5e7eb; background:#f8f9fb; color:rgb(105,105,105); font-style:italic;">Natural Video Generation</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">VBench</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Text</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Short Vid.</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">Talkinghead</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Audio &amp; Image</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Short Vid.</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">MovieBench</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Text &amp; Audio &amp; Image</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Long Vid.</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+    </tr>
+    <tr>
+      <td colspan="8" style="padding:10px 8px; border-bottom:1px solid #e5e7eb; background:#f8f9fb; color:rgb(105,105,105); font-style:italic;">Multimodal Agent for Research</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">Paper2Poster</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Paper</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Poster</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">PPTAgent</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Doc. &amp; Template</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Slide</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;">PresentAgent</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Doc. &amp; Template</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Audio &amp; Long Vid.</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#9ca3af;">✗</td>
+    </tr>
+    <tr>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; text-align:left;"><strong>Paper2Video Bench (Ours)</strong></td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Paper &amp; Image &amp; Audio</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb;">Audio &amp; Long Vid.</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+      <td style="padding:8px; border-bottom:1px solid #e5e7eb; color:#10b981; font-weight:700;">✅</td>
+    </tr>
+  </tbody>
+</table>
+
 ---
 
 ### Table of Contents
