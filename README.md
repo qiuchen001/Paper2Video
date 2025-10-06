@@ -53,7 +53,7 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
       </td>
       <td style="padding:8px; border:1px solid #ddd;">
         <video controls style="width:240px;">
-          <source src=https://github.com/user-attachments/assets/0539de95-1a87-4631-966f-360e5066b7ff type="video/mp4">
+          <source src="https://github.com/user-attachments/assets/0539de95-1a87-4631-966f-360e5066b7ff" type="video/mp4">
           Your browser does not support the video tag.
         </video>
       </td>
