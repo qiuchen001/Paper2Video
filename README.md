@@ -25,70 +25,14 @@ Check out How Paper2Video for Paper2Video 😼:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
-<table style="width: 90%; border-collapse: collapse; text-align: center; margin: 24px auto; font-size: 15px; line-height: 1.45; border:1px solid #ddd;">
-  <thead>
-    <tr>
-      <th colspan="3" style="padding:8px; border:1px solid #ddd;">Input</th>
-      <th rowspan="2" style="padding:8px; border:1px solid #ddd;">Output</th>
-    </tr>
-    <tr>
-      <th style="padding:8px; border:1px solid #ddd;">Paper</th>
-      <th style="padding:8px; border:1px solid #ddd;">Author Portrait</th>
-      <th style="padding:8px; border:1px solid #ddd;">Voice</th>
-    </tr>
-  </thead>
-  <tbody>
-    <!-- Sample 1 -->
-    <tr>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <img src="assets/hinton/paper.png" alt="Paper" style="width:120px;">
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <img src="assets/hinton/hinton_head.jpeg" alt="Author Portrait" style="width:120px; border-radius:8px;">
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <audio controls style="width:160px;">
-          <img src= style="width:120px; border-radius:8px;">
-        </audio>
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <video controls style="width:240px;">
-          <source src="https://github.com/user-attachments/assets/0539de95-1a87-4631-966f-360e5066b7ff" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </td>
-      <iframe width="400" height="225" src="https://github.com/user-attachments/assets/0539de95-1a87-4631-966f-360e5066b7ff" frameborder="0" allowfullscreen></iframe>
-
-      <td style="padding:8px; border:1px solid #ddd;">
-        <video controls style="width:240px;">
-          <source src="assets/hinton/hinton.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-      </td>
-    </tr>
+| Paper (Input) | Author Portrait (Input) | Voice (Input) | Output (Video) |
+|---------------|--------------------------|---------------|----------------|
+| ![Paper1](assets/hinton/paper.png) | ![Author1](assets/hinton/hinton.jpeg) | [Voice1](https://github.com/user-attachments/assets/9abc6e3e-1317-434b-99e7-4a824a16fba4) | ![Video1](assets/videos/sample1.mp4) |
+| ![Paper2](assets/papers/sample2.png) | ![Author2](assets/authors/author2.jpg) | [Voice2](assets/voices/author2.wav) | ![Video2](assets/videos/sample2.mp4) |
 
 
-    <!-- Sample 2 -->
-    <tr>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <img src="assets/papers/sample2.png" alt="Paper" style="width:160px;">
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <img src="assets/authors/author2.jpg" alt="Author Portrait" style="width:120px; border-radius:8px;">
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <audio controls style="width:160px;">
-          <source src="assets/voices/author2.wav" type="audio/wav">
-        </audio>
-      </td>
-      <td style="padding:8px; border:1px solid #ddd;">
-        <video controls style="width:240px;">
-          <source src="assets/videos/sample2.mp4" type="video/mp4">
-        </video>
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+
 
 ---
 
