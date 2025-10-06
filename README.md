@@ -25,7 +25,7 @@ Check out How Paper2Video for Paper2Video 😼:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
-Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/):
+Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
 - [ ] We will release the [paper]() very soon.
