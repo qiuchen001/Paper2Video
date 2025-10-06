@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 ## 🔥 Update
 - [x] [2025.10.6] We release the [code](https://github.com/showlab/Paper2Video) and [dataset](https://huggingface.co/datasets/ZaynZhu/Paper2Video)
-- [x] [2025.9.22] Paper2Video has been accepted to the **Scaling Environments for Agents([SEA](https://sea-workshop.github.io/)) Workshop at NeurIPS 2025**.
+- [x] [2025.9.28] Paper2Video has been accepted to the **Scaling Environments for Agents([SEA](https://sea-workshop.github.io/)) Workshop at NeurIPS 2025**.
 
 ---
 
