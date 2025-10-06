@@ -27,9 +27,7 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
 | Paper (Input) | Author Portrait (Input) | Voice (Input) | Output (Video) |
 |---------------|--------------------------|---------------|----------------|
-| ![Paper1](assets/hinton/paper.png) | ![Author1](assets/hinton/hinton_head.jpeg) | 
-
-https://github.com/user-attachments/assets/9abc6e3e-1317-434b-99e7-4a824a16fba4 
+| ![Paper1](assets/hinton/paper.png) | ![Author1](assets/hinton/hinton_head.jpeg) | [https://github.com/user-attachments/assets/9abc6e3e-1317-434b-99e7-4a824a16fba4]
 
 | ![Video1](assets/videos/sample1.mp4) |
 | ![Paper2](assets/papers/sample2.png) | ![Author2](assets/authors/author2.jpg) | [Voice2](assets/voices/author2.wav) | ![Video2](assets/videos/sample2.mp4) |
