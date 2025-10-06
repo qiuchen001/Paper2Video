@@ -9,7 +9,7 @@
   <a href="https://zeyu-zhu.github.io/webpage/">Zeyu Zhu</a>,
   <a href="https://qhlin.me/">Kevin Qinghong Lin</a>,
   <a href="https://scholar.google.com/citations?user=h1-3lSoAAAAJ&hl=en">Mike Zheng Shou</a> <br>
-  Show Lab @ National University of Singapore
+  Show Lab, National University of Singapore
 </p>
 
 
@@ -24,6 +24,11 @@
 Check out How Paper2Video for Paper2Video 😼:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
+
+
+## 🔥 Update
+- [x] [2025.10.6] We release the [code](https://github.com/showlab/Paper2Video) and [dataset](https://huggingface.co/datasets/ZaynZhu/Paper2Video)
+- [x] [2025.9.22] Paper2Video has been accepted to the **Scaling Environments for Agents([SEA](https://sea-workshop.github.io/)) Workshop at NeurIPS 2025**.
 
 ---
 
