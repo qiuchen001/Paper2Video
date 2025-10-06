@@ -87,7 +87,7 @@ Export your **API credentials**:
 export GEMINI_API_KEY="your_gemini_key_here"
 export OPENAI_API_KEY="your_openai_key_here"
 ```
-The best practice is to use **GPT4.1** or **Gemini2.5-pro** for both LLM and VLMs. We also support locally deployed open-source model(e.g., QWen), details please referring to <a href="https://github.com/Paper2Poster/Paper2Poster.git">Paper2Poster</a>.
+The best practice is to use **GPT4.1** or **Gemini2.5-Pro** for both LLM and VLMs. We also support locally deployed open-source model(e.g., Qwen), details please referring to <a href="https://github.com/Paper2Poster/Paper2Poster.git">Paper2Poster</a>.
 
 ### 3. Inference
 The script `pipeline.py` provides an automated pipeline for generating academic presentation videos. It takes **LaTeX paper sources** together with **reference image/audio** as input, and goes through multiple sub-modules (Slides → Subtitles → Speech → Cursor → Talking Head) to produce a complete presentation video. ⚡ The minimum recommended GPU for running this pipeline is **NVIDIA A6000** with 48G.
