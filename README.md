@@ -38,9 +38,16 @@ https://github.com/user-attachments/assets/b92014c2-e327-4cd2-86dd-c9bc31585af8
 Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
+- [x] [2025.10.8] Check out our demo video below!
 - [x] [2025.10.7] We release the [arxiv paper](https://arxiv.org/abs/2510.05096).
 - [x] [2025.10.6] We release the [code](https://github.com/showlab/Paper2Video) and [dataset](https://huggingface.co/datasets/ZaynZhu/Paper2Video).
 - [x] [2025.9.28] Paper2Video has been accepted to the **Scaling Environments for Agents Workshop([SEA](https://sea-workshop.github.io/)) at NeurIPS 2025**.
+
+
+
+https://github.com/user-attachments/assets/f0a1a377-81ee-403a-9328-4f7e4942edec
+
+
 
 ---
 
