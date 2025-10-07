@@ -51,7 +51,7 @@ Check out more examples at [🌐 project page](https://showlab.github.io/Paper2V
   - [2. Configure LLMs](#2-configure-llms)
   - [3. Inference](#3-inference)
 - [📊 Evaluation: Paper2Video](#-evaluation-paper2video)
-- [😼 Fun: Paper2Video for Paper2Video](#-fun)
+- [😼 Fun: Paper2Video for Paper2Video](#-fun-paper2video-for-paper2video)
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📌 Citation](#-citation)
 
