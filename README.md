@@ -25,15 +25,15 @@
   
 | Paper | Image | Audio |
 |--------|--------|--------|
-| <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/paper.png" width="180"/><br>[🔗 Paper link](https://arxiv.org/pdf/2212.13345) | <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/hinton_head.jpeg" width="180"/> <br>Geoffrey Hinton's photo| <img src="assets/sound.png" width="180"/><br>[🔗 Audio sample](https://github.com/showlab/Paper2Video/blob/page/assets/hinton/ref_audio_10.wav) |
+| <img src="https://github.com/showlab/Paper2Video/blob/page/assets/lecun/paper.png" width="180"/><br>[🔗 Paper link](https://arxiv.org/pdf/2212.13345) | <img src="https://github.com/showlab/Paper2Video/blob/page/assets/lecun/lecun_head.png" width="180"/> <br>Lecun's photo| <img src="assets/sound.png" width="180"/><br>[🔗 Audio sample](https://github.com/showlab/Paper2Video/blob/page/assets/lecun/ref_audio_10.wav) |
 
 
 - **Output:** a presentation video
 
 
-<!-- <video controls width="300" src="https://github.com/user-attachments/assets/3506aaca-8f9d-4267-bcde-3c7a601055d2"></video> -->
+https://github.com/user-attachments/assets/b92014c2-e327-4cd2-86dd-c9bc31585af8
 
-<video controls width="180" height="90" src="https://github.com/user-attachments/assets/3506aaca-8f9d-4267-bcde-3c7a601055d2"></video>
+
 
 Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
