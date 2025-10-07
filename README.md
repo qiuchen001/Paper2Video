@@ -18,7 +18,7 @@
   <a href="https://huggingface.co/papers/2510.05096">🤗 Daily Paper</a> &nbsp; | &nbsp;
   <a href="https://huggingface.co/datasets/ZaynZhu/Paper2Video">📊 Dataset</a> &nbsp; | &nbsp;
   <a href="https://showlab.github.io/Paper2Video/">🌐 Project Website</a> &nbsp; | &nbsp;
-  <a href="">💬Twitter</a>
+  <!-- <a href="">💬Twitter</a> -->
 </p>
 
 - **Input:** a paper ➕ an image ➕ an audio
