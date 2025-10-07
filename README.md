@@ -21,7 +21,20 @@
   <a href="">💬Twitter</a>
 </p>
 
-Check out How Paper2Video for Paper2Video 😼:
+**Input:** a paper ➕ an image ➕ an audio
+| Paper | Image | Audio |
+|--------|--------|--------|
+| <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/paper.png" width="180"/><br>[🔗 Paper link](https://arxiv.org/pdf/2212.13345) | <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/hinton_head.jpeg" width="180"/> <br>Geoffrey Hinton's photo| <img src="assets/sound.png" width="180"/><br>[🔗 Audio sample](https://github.com/showlab/Paper2Video/blob/page/assets/hinton/ref_audio_10.wav) |
+
+
+**Output:** a presentation video
+
+
+<video controls width="300" src="https://github.com/user-attachments/assets/3506aaca-8f9d-4267-bcde-3c7a601055d2"></video>
+
+
+
+😼 Check out **How Paper2Video for Paper2Video**:
 
 https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 
