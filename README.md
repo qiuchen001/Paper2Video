@@ -220,4 +220,13 @@ https://github.com/user-attachments/assets/ff58f4d8-8376-4e12-b967-711118adf3c4
 If you find our work useful, please cite:
 
 ```bibtex
+@misc{paper2video,
+      title={Paper2Video: Automatic Video Generation from Scientific Papers}, 
+      author={Zeyu Zhu and Kevin Qinghong Lin and Mike Zheng Shou},
+      year={2025},
+      eprint={2510.05096},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.05096}, 
+}
 ```
