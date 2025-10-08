@@ -45,7 +45,10 @@ Check out more examples at [🌐 project page](https://showlab.github.io/Paper2V
 
 
 
-https://github.com/user-attachments/assets/f0a1a377-81ee-403a-9328-4f7e4942edec
+
+
+https://github.com/user-attachments/assets/a655e3c7-9d76-4c48-b946-1068fdb6cdd9
+
 
 
 
