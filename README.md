@@ -25,13 +25,15 @@
   
 | Paper | Image | Audio |
 |--------|--------|--------|
-| <img src="https://github.com/showlab/Paper2Video/blob/page/assets/lecun/paper.png" width="180"/><br>[🔗 Paper link](https://arxiv.org/pdf/1509.01626) | <img src="https://github.com/showlab/Paper2Video/blob/page/assets/lecun/lecun_head.png" width="180"/> <br>Lecun's photo| <img src="assets/sound.png" width="180"/><br>[🔗 Audio sample](https://github.com/showlab/Paper2Video/blob/page/assets/lecun/ref_audio_10.wav) |
+| <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/paper.png" width="180"/><br>[🔗 Paper link](https://arxiv.org/pdf/1509.01626) | <img src="https://github.com/showlab/Paper2Video/blob/page/assets/hinton/hinton_head.png" width="180"/> <br>Lecun's photo| <img src="assets/sound.png" width="180"/><br>[🔗 Audio sample](https://github.com/showlab/Paper2Video/blob/page/assets/hinton/ref_audio_10.wav) |
 
 
 - **Output:** a presentation video
 
 
-https://github.com/user-attachments/assets/b92014c2-e327-4cd2-86dd-c9bc31585af8
+
+https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
+
 
 
 
