@@ -18,7 +18,7 @@
   <a href="https://huggingface.co/papers/2510.05096">🤗 Daily Paper</a> &nbsp; | &nbsp;
   <a href="https://huggingface.co/datasets/ZaynZhu/Paper2Video">📊 Dataset</a> &nbsp; | &nbsp;
   <a href="https://showlab.github.io/Paper2Video/">🌐 Project Website</a>
-  <!-- <a href="">💬Twitter</a>  &nbsp; | &nbsp; -->
+  <a href="https://x.com/KevinQHLin/status/1976105129146257542">💬 X (Twitter)</a>
 </p>
 
 - **Input:** a paper ➕ an image ➕ an audio
@@ -40,6 +40,7 @@ https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
 Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
+- [x] [2025.10.9] Thanks AK for sharing our work on [Twitter](https://x.com/_akhaliq/status/1976099830004072849)!
 - [x] [2025.10.9] Our work is reported by [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27).
 - [x] [2025.10.8] Check out our demo video below!
 - [x] [2025.10.7] We release the [arxiv paper](https://arxiv.org/abs/2510.05096).
