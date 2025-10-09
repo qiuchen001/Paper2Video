@@ -40,13 +40,11 @@ https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
 Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
+- [x] [2025.10.9] Our work is reported by [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27).
 - [x] [2025.10.8] Check out our demo video below!
 - [x] [2025.10.7] We release the [arxiv paper](https://arxiv.org/abs/2510.05096).
 - [x] [2025.10.6] We release the [code](https://github.com/showlab/Paper2Video) and [dataset](https://huggingface.co/datasets/ZaynZhu/Paper2Video).
 - [x] [2025.9.28] Paper2Video has been accepted to the **Scaling Environments for Agents Workshop([SEA](https://sea-workshop.github.io/)) at NeurIPS 2025**.
-
-
-
 
 
 https://github.com/user-attachments/assets/a655e3c7-9d76-4c48-b946-1068fdb6cdd9
