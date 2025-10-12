@@ -21,9 +21,7 @@ from camel.types import ModelPlatformType
 from pathlib import Path
 from typing import Sequence, Tuple, Optional
 from PIL import Image, ImageDraw, ImageFont
-ROOT = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(ROOT, "Paper2Poster"))
-from utils.wei_utils import get_agent_config
+from wei_utils import get_agent_config
 
 
 def extract_json_block(text: str, first_only: bool = True):

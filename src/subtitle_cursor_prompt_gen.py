@@ -8,9 +8,7 @@ from camel.models import ModelFactory
 from camel.agents import ChatAgent
 from camel.messages import BaseMessage
 from camel.types import ModelPlatformType
-ROOT = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(ROOT, "Paper2Poster"))
-from utils.wei_utils import get_agent_config
+from wei_utils import get_agent_config
 
 
 def subtitle_cursor_gen(slide_imgs_dir, prompt_path, model_config):

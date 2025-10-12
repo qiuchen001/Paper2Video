@@ -101,7 +101,6 @@ conda install -c conda-forge tectonic
 Download the dependent code and follow the instructions in **[Hallo2](https://github.com/fudan-generative-vision/hallo2)** to download the model weight.
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
-git clone https://github.com/Paper2Poster/Paper2Poster.git
 ```
 You need to **prepare the environment separately for talking-head generation** to potential avoide package conflicts, please refer to  <a href="git clone https://github.com/fudan-generative-vision/hallo2.git">Hallo2</a>. After installing, use `which python` to get the python environment path.
 ```bash

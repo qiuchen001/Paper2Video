@@ -27,9 +27,7 @@ from slide_code_gen_select_improvement import latex_code_gen_upgrade
 from cursor_render import render_video_with_cursor_from_json
 from subtitle_cursor_prompt_gen import subtitle_cursor_gen
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, os.path.join(ROOT, "Paper2Poster"))
-from utils.wei_utils import get_agent_config
+from wei_utils import get_agent_config
 
 
 # os.environ["GEMINI_API_KEY"] = ""
