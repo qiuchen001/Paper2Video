@@ -96,6 +96,7 @@ cd src
 conda create -n p2v python=3.10
 conda activate p2v
 pip install -r requirements.txt
+conda install -c conda-forge tectonic
 ````
 Download the dependent code and follow the instructions in **[Hallo2](https://github.com/fudan-generative-vision/hallo2)** to download the model weight.
 ```bash
