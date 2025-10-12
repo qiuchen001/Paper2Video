@@ -53,7 +53,7 @@ if __name__ == '__main__':
     parser.add_argument('--gpu_list', type=str2list, default="")
     parser.add_argument('--if_tree_search', type=bool, default=True)
     parser.add_argument('--beamer_templete_prompt', type=str, default=None)
-    parser.add_argument('--stage', type=str, default="[0]") 
+    parser.add_argument('--stage', type=str, default="[\"0\"]") 
     parser.add_argument('--talking_head_env', type=str, default="") 
     # slide+subtitle: 1; 
     # tts+cusor: 2; 
