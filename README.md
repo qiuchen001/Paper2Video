@@ -3,6 +3,8 @@
 
 <p align="center">
   <b>Paper2Video: Automatic Video Generation from Scientific Papers</b>
+<br>
+从科学论文自动生成演讲视频
 </p>
 
 <p align="center">
