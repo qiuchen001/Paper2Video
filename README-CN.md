@@ -156,7 +156,7 @@ python pipeline.py \
 | `--beamer_templete_prompt` | `str` | `None` | 可选参考文本（用于幻灯片风格指导） |
 | `--gpu_list` | `list[int]` | `""` | GPU 列表，用于并行执行（适用于**光标生成**与 **Talking Head 渲染**） |
 | `--if_tree_search` | `bool` | `True` | 是否启用树搜索（用于幻灯片布局优化） |
-| `--stage` | `str` | `"[0]"` | 运行的流水线阶段（例如 `[0]` 表示完整流程，`[1,2,3]` 表示部分阶段） |
+| `--stage` | `str` | `"[0]"` | 需要运行的阶段（例如 `[0]` 表示完整流程，`[1,2,3]` 表示部分阶段） |
 | `--talking_head_env` | `str` | `/path/to/hallo2_env` | Talking Head 生成的 Python 环境路径 |
 ---
 
