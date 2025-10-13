@@ -1,5 +1,9 @@
 # Paper2Video
 
+<p align="right">
+  <b>English</b> | <a href="./README-CN.md">简体中文</a>
+</p>
+
 
 <p align="center">
   <b>Paper2Video: Automatic Video Generation from Scientific Papers</b>
