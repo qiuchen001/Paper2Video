@@ -45,7 +45,7 @@ https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
 查看更多生成结果 [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
-- [x] [2025.10.11] 我们的工资在[YC Hacker News](https://news.ycombinator.com/item?id=45553701)上受到关注.
+- [x] [2025.10.11] 我们的工作在[YC Hacker News](https://news.ycombinator.com/item?id=45553701)上受到关注.
 - [x] [2025.10.9] 感谢AK在[Twitter](https://x.com/_akhaliq/status/1976099830004072849)上分享我们的工作!
 - [x] [2025.10.9] 我们的工作被 [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27)报道.
 - [x] [2025.10.8] 下方查看我们的demo视频!
