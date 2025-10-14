@@ -248,3 +248,4 @@ If you find our work useful, please cite:
       url={https://arxiv.org/abs/2510.05096}, 
 }
 ```
+[![Star History](https://api.star-history.com/svg?repos=showlab/Paper2Video&type=Date)](https://star-history.com/#showlab/Paper2Video&Date)
