@@ -105,7 +105,7 @@ conda activate p2v
 pip install -r requirements.txt
 conda install -c conda-forge tectonic
 ````
-**[可选] 如果您不需要数字人展示，请 [跳过](#2-configure-llms) 此部分。**
+**[可选] 如果您不需要数字人展示，请 [跳过](#2-大语言模型配置) 此部分。**
 
 下载所依赖代码，并按照[Hallo2](https://github.com/fudan-generative-vision/hallo2)中的说明下载模型权重。
 ```bash
