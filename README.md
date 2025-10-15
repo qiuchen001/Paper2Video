@@ -46,6 +46,7 @@ https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
 Check out more examples at [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
+**Any contributions are welcome!**
 - [x] [2025.10.11] Our work receives attention on [YC Hacker News](https://news.ycombinator.com/item?id=45553701).
 - [x] [2025.10.9] Thanks AK for sharing our work on [Twitter](https://x.com/_akhaliq/status/1976099830004072849)!
 - [x] [2025.10.9] Our work is reported by [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27).
