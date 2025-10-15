@@ -105,12 +105,12 @@ conda activate p2v
 pip install -r requirements.txt
 conda install -c conda-forge tectonic
 ````
+**[可选] 如果您不需要数字人展示，请 [跳过](#2-configure-llms) 此部分。**
+
 下载所依赖代码，并按照[Hallo2](https://github.com/fudan-generative-vision/hallo2)中的说明下载模型权重。
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
 ```
-**[可选] 如果您不需要数字人展示，请 [跳过](#2-configure-llms) 此部分。**
-
 您需要**单独准备用于 talking-head generation 的环境**，以避免潜在的软件包冲突，请参考<a href="git clone https://github.com/fudan-generative-vision/hallo2.git">Hallo2</a>。安装完成后，使用 `which python` 命令获取 Python 环境路径。
 ```bash
 cd hallo2
