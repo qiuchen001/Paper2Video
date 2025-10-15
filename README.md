@@ -108,6 +108,7 @@ pip install -r requirements.txt
 conda install -c conda-forge tectonic
 ```
 **[Optional] [Skip](#2-configure-llms) this part if you do not need a human presenter.**
+
 Download the dependent code and follow the instructions in **[Hallo2](https://github.com/fudan-generative-vision/hallo2)** to download the model weight.
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
