@@ -47,6 +47,7 @@ Check out more examples at [🌐 project page](https://showlab.github.io/Paper2V
 
 ## 🔥 Update
 **Any contributions are welcome!**
+- [x] [2025.10.15] We update a new version without talking-head for fast generation!
 - [x] [2025.10.11] Our work receives attention on [YC Hacker News](https://news.ycombinator.com/item?id=45553701).
 - [x] [2025.10.9] Thanks AK for sharing our work on [Twitter](https://x.com/_akhaliq/status/1976099830004072849)!
 - [x] [2025.10.9] Our work is reported by [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27).
@@ -105,7 +106,8 @@ conda create -n p2v python=3.10
 conda activate p2v
 pip install -r requirements.txt
 conda install -c conda-forge tectonic
-````
+```
+**[Optional] [Skip](#2-configure-llms) this part if you do not need a human presenter.**
 Download the dependent code and follow the instructions in **[Hallo2](https://github.com/fudan-generative-vision/hallo2)** to download the model weight.
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
@@ -130,8 +132,19 @@ The best practice is to use **GPT4.1** or **Gemini2.5-Pro** for both LLM and VLM
 The script `pipeline.py` provides an automated pipeline for generating academic presentation videos. It takes **LaTeX paper sources** together with **reference image/audio** as input, and goes through multiple sub-modules (Slides → Subtitles → Speech → Cursor → Talking Head) to produce a complete presentation video. ⚡ The minimum recommended GPU for running this pipeline is **NVIDIA A6000** with 48G.
 
 #### Example Usage
+Run the following command to launch a fast generation (**without talking-head generation**):
+```bash
+python pipeline_light.py \
+    --model_name_t gpt-4.1 \
+    --model_name_v gpt-4.1 \
+    --result_dir /path/to/output \
+    --paper_latex_root /path/to/latex_proj \
+    --ref_img /path/to/ref_img.png \
+    --ref_audio /path/to/ref_audio.wav \
+    --gpu_list [0,1,2,3,4,5,6,7]
+```
 
-Run the following command to launch a full generation:
+Run the following command to launch a full generation (**with talking-head generation**):
 
 ```bash
 python pipeline.py \
