@@ -45,6 +45,8 @@ https://github.com/user-attachments/assets/39221a9a-48cb-4e20-9d1c-080a5d8379c4
 查看更多生成结果 [🌐 project page](https://showlab.github.io/Paper2Video/).
 
 ## 🔥 Update
+**我们欢迎任何贡献！**
+- [x] [2025.10.15] 我们更新了一个没有talking-head的新版本，以便快速生成！
 - [x] [2025.10.11] 我们的工作在[YC Hacker News](https://news.ycombinator.com/item?id=45553701)上受到关注.
 - [x] [2025.10.9] 感谢AK在[Twitter](https://x.com/_akhaliq/status/1976099830004072849)上分享我们的工作!
 - [x] [2025.10.9] 我们的工作被 [Medium](https://medium.com/@dataism/how-ai-learned-to-make-scientific-videos-from-slides-to-a-talking-head-0d807e491b27)报道.
@@ -103,6 +105,8 @@ conda activate p2v
 pip install -r requirements.txt
 conda install -c conda-forge tectonic
 ````
+**[可选] 如果您不需要数字人展示，请 [跳过](#2-大语言模型配置) 此部分。**
+
 下载所依赖代码，并按照[Hallo2](https://github.com/fudan-generative-vision/hallo2)中的说明下载模型权重。
 ```bash
 git clone https://github.com/fudan-generative-vision/hallo2.git
@@ -127,8 +131,19 @@ export OPENAI_API_KEY="your_openai_key_here"
 脚本 `pipeline.py` 提供了一个自动化的学术演示视频生成流程。它以 **LaTeX 论文素材** 和 **参考图像/音频** 作为输入，并经过多个子模块（幻灯片 → 字幕 → 语音 → 光标 → 头部特写）生成完整的演示视频。⚡ 运行此流程的最低推荐 GPU 为 **NVIDIA A6000**，显存 48G。
 
 #### 示例用法
+运行以下命令启动快速生成（**不包含数字人生成**）：
+```bash
+python pipeline_light.py \
+--model_name_t gpt-4.1 \
+--model_name_v gpt-4.1 \
+--result_dir /path/to/output \
+--paper_latex_root /path/to/latex_proj \
+--ref_img /path/to/ref_img.png \
+--ref_audio /path/to/ref_audio.wav \
+--gpu_list [0,1,2,3,4,5,6,7]
+```
 
-运行以下命令来启动完整生成：
+运行以下命令来启动完整生成（**包含数字人生成**）：
 
 ```bash
 python pipeline.py \
