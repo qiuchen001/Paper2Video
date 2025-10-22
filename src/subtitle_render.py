@@ -7,7 +7,7 @@ from moviepy.editor import VideoFileClip, CompositeVideoClip, ImageClip
 def create_subtitle_image(text, font_size=32, font_path="arial.ttf"):
     try:
         font = ImageFont.truetype(font_path, font_size)
-    except:
+    except (IOError, OSError) as e:
         print(f"[Warning] Failed to load font from '{font_path}': {e}")
         print("Using default font (fixed size, font_size will be ignored!)")
         font = ImageFont.load_default()

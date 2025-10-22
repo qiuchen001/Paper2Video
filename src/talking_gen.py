@@ -32,6 +32,12 @@ def run_hallo2_inference(args):
         "--source_image", source_image,
         "--driving_audio", driving_audio,
     ]
+
+    print(f"cmd: {cmd}")
+
+    # import pdb
+    # pdb.set_trace()
+
     result = subprocess.run(cmd, env=env)
 
     shutil.move(config_bak, config_path)
@@ -41,8 +47,8 @@ def talking_gen_per_slide(model_type, input_list, save_dir, gpu_list, env_path):
     num_gpu = len(gpu_list)
     print(gpu_list)
     if model_type == "hallo2":
-        config_path="hallo2/configs/inference/long.yaml"
-        script_path="hallo2/scripts/inference_long.py"
+        config_path="/mnt/data/ai-ground/projects/Paper2Video/src/hallo2/configs/inference/long.yaml"
+        script_path="/mnt/data/ai-ground/projects/Paper2Video/src/hallo2/scripts/inference_long.py"
         task_list = []
         task_num = 0
         for idx, (ref_img_path, audio_path) in enumerate(input_list):
@@ -51,5 +57,14 @@ def talking_gen_per_slide(model_type, input_list, save_dir, gpu_list, env_path):
                 task_num += 1
         for task in task_list:
             print(task)
-        with multiprocessing.Pool(processes=num_gpu) as pool: results = pool.map(run_hallo2_inference, task_list)
+        
+        results = []
+        if task_list:
+            ctx = multiprocessing.get_context("spawn")
+            pool = ctx.Pool(processes=num_gpu)
+            try:
+                results = pool.map(run_hallo2_inference, task_list)
+            finally:
+                pool.close()
+                pool.join()
     return results

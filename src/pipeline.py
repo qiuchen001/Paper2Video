@@ -22,7 +22,7 @@ from speech_gen import tts_per_slide
 from subtitle_render import add_subtitles
 from talking_gen import talking_gen_per_slide
 from cursor_gen import cursor_gen_per_sentence
-from slide_code_gen import latex_code_gen
+#from slide_code_gen import latex_code_gen
 from slide_code_gen_select_improvement import latex_code_gen_upgrade
 from cursor_render import render_video_with_cursor_from_json
 from subtitle_cursor_prompt_gen import subtitle_cursor_gen
@@ -95,8 +95,9 @@ if __name__ == '__main__':
                                                             model_config_ll=agent_config_t, model_config_vl=agent_config_v, beamer_temp_name=args.beamer_templete_prompt)
         else:
             paper_latex_path = path.join(args.paper_latex_root, "main.tex") 
-            usage_slide = latex_code_gen(prompt_path=prompt_path, tex_dir=args.paper_latex_root, tex_path=paper_latex_path, beamer_save_path=slide_latex_path, model_config=agent_config_t)
-            
+            #usage_slide = latex_code_gen(prompt_path=prompt_path, tex_dir=args.paper_latex_root, tex_path=paper_latex_path, beamer_save_path=slide_latex_path, model_config=agent_config_t)
+            usage_sliede = None
+
         slide_imgs = convert_from_path(beamer_path, dpi=400)
         for i, img in enumerate(slide_imgs): img.save(path.join(slide_image_dir, f"{i+1}.png")) # save slides as images
         if args.model_name_t not in token_usage.keys(): 
@@ -161,8 +162,18 @@ if __name__ == '__main__':
             width, height = size, size
         num_slide = len(os.listdir(slide_image_dir))
         print(args.ref_img.split("/")[-1].split(".")[0])
-        merage_cmd =  ["./1_merage.bash", slide_image_dir, talking_save_dir, tmp_merage_dir,
-                    str(width), str(height), str(num_slide), tmp_merage_1, args.ref_img.split("/")[-1].replace(".png", "")]
+        # merage_cmd =  ["/mnt/data/ai-ground/projects/Paper2Video/src/1_merage.bash", slide_image_dir, talking_save_dir, tmp_merage_dir,
+        #             str(width), str(height), str(num_slide), tmp_merage_1, args.ref_img.split("/")[-1].replace(".png", "")]
+        # out = subprocess.run(merage_cmd, text=True)
+
+        script_path = os.path.join(os.path.dirname(__file__), "1_merage.bash")
+        if not os.path.exists(script_path):
+            raise FileNotFoundError(f"Missing merge script: {script_path}")
+
+        # import pdb
+        # pdb.set_trace()
+        merage_cmd = ["bash", script_path, slide_image_dir, talking_save_dir, tmp_merage_dir, str(width), str(height), str(num_slide), tmp_merage_1, args.ref_img.split("/")[-1].replace(".png", "")]
+        print(merage_cmd)
         out = subprocess.run(merage_cmd, text=True)
         # render cursor
         cursor_size = size//6

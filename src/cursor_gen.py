@@ -117,6 +117,8 @@ def timesteps(subtitles, aligned_result, audio_path):
         duration = {"start": start, "end": end, "text": sentence}
         result.append(duration)
     
+    if len(result) == 0: return []
+
     result[0]["start"] = 0
     result[-1]["end"] = get_audio_length(audio_path)
     return result
